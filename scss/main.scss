@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+$mainColor:#f8f8f8;
+$textColor:#d0ff00;
+
+%allButton{
+  width: 220px;
+  height: 70px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  &:hover{
+    text-decoration: none;
+    background-color: red;
+  }
+}
+.container{
+  .my-btn{
+    @extend %allButton
+  }
+  .my-link{
+    @extend %allButton;
+    background-color: black;
+    color: white;
+  }
+}
+
+
+header{
+  .nav{
+    width: 600px;
+    background-color: black;
+    margin: 0 auto;
+    .nav-item{
+      padding: 8px 15px;
+      &:hover{
+        background-color: orangered;
+      }
+      .nav-link{
+        color: $textColor;
+      }
+    }
+  }
+}
+
+body{
+  height: 100vh;
+   background: {
+     //image: url("../images/img1.jpg");
+       repeat: no-repeat;
+     position: center center;
+  };
+}

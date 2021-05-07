@@ -1,0 +1,32 @@
+.RASIM{
+  background-image: url("../images/Bitmap (5).png");
+  background-size: 100%;
+  .ere{
+    margin-top: 250px;
+    .btn:hover{
+      background-color: #DC3545;
+      color: white;
+      .ddd:hover button{
+        background-color: #DC3545;
+      }
+      .icon-loupe{
+        mask-image: url("../images/loupe.svg") ;
+        -webkit-mask-image: url("../images/loupe.svg") ;
+        background-color: white;
+      }
+      .navbar{
+        .navbar-nav{
+          .nav-item{
+            .nav-link{
+              color: gray;
+
+              &:hover{
+                color: white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

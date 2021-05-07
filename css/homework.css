@@ -1,0 +1,25 @@
+.ddd:hover button {
+  background-color: #DC3545; }
+
+.icon-loupe {
+  mask-image: url("../images/loupe.svg");
+  -webkit-mask-image: url("../images/loupe.svg");
+  background-color: white; }
+
+.btn:hover {
+  background-color: #DC3545;
+  color: white; }
+
+.ere {
+  margin-top: 250px; }
+
+.RASIM {
+  background-image: url("../images/Bitmap (5).png");
+  background-size: 100%; }
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: gray; }
+  .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: white; }
+
+/*# sourceMappingURL=homework.css.map */
